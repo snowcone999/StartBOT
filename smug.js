@@ -11,7 +11,7 @@ module.exports = {
     );
 
     const embed = new MessageEmbed()
-      .setTitle(`${message.author.username} is smugging
+      .setTitle(`${message.author.username} is smugging `)
       .setFooter(message.author.username)
       .setColor("YELLOW")
       .setDescription(`[Click here if the image failed to load.](${data.url})`)
