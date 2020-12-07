@@ -2,7 +2,7 @@ const { MessageEmbed } = require("discord.js");
 
 module.exports = {
   name: "cuddle",
-  description: "Cuddle with somebody",
+  description: "is cuddling",
   category: "image",
   async execute(bot, message, args) {
     const data = await bot.neko.sfw.cuddle();
