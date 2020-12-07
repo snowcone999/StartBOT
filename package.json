@@ -1,0 +1,23 @@
+{
+  "name": "discord-custom-prefix",
+  "version": "1.0.0",
+  "description": "This bot will have setprefix inside it!",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fawnthefox/discord_custom_prefix.git"
+  },
+  "author": "Fawn, Fawn the fox",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fawnthefox/discord_custom_prefix/issues"
+  },
+  "homepage": "https://github.com/Fawnthefox/discord_custom_prefix#readme",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "fs": "^0.0.2"
+  }
+}
