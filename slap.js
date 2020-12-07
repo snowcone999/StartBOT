@@ -10,12 +10,12 @@ module.exports = {
       res.json()
     );
     const user = message.mentions.users.first() || message.author;
-    const slapped = message.author.id === user.id ? "themselfs" : user.username;
+    const slapped = message.author.id === user.id ? "themselves" : user.username;
 
     const embed = new MessageEmbed()
       .setFooter(message.author.username)
-      .setColor("BLUE")
-      .setTitle(`${message.author.username} Slapped ${slapped}`)
+      .setColor("YELLOW")
+      .setTitle(`${message.author.username} slapped ${slapped}`)
       .setDescription(`[Click here if the image failed to load.](${data.url})`)
       .setImage(`${data.url}`)
       .setTimestamp();
