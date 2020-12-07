@@ -13,9 +13,9 @@ module.exports = {
     const kissed = message.author.id === user.id ? "themselfs" : user.username;
 
     const embed = new MessageEmbed()
-      .setTitle(`${message.author.username} Kissed ${kissed}`)
+      .setTitle(`${message.author.username} kissed ${kissed}`)
       .setFooter(message.author.username)
-      .setColor("BLUE")
+      .setColor("YELLOW")
       .setDescription(`[Click here if the image failed to load.](${data.url})`)
       .setImage(`${data.url}`)
       .setTimestamp();
