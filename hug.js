@@ -10,7 +10,7 @@ module.exports = {
       res.json()
     );
     const user = message.mentions.users.first() || message.author;
-    const hugged = message.author.id === user.id ? "themselfs" : user.username;
+    const hugged = message.author.id === user.id ? "themselves" : user.username;
 
     const embed = new MessageEmbed()
       .setTitle(`${message.author.username} Hugged ${hugged}`)
