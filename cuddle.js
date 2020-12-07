@@ -8,7 +8,7 @@ module.exports = {
     const data = await bot.neko.sfw.cuddle();
 
     const user = message.mentions.users.first() || message.author;
-    const cuddled = message.author.id === user.id ? "themselfs" : user.username;
+    const cuddled = message.author.id === user.id ? "themselves" : user.username;
 
     const embed = new MessageEmbed()
       .setTitle(`${message.author.username} is cuddling with ${cuddled}`)
