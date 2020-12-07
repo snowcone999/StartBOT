@@ -13,9 +13,9 @@ module.exports = {
     const hugged = message.author.id === user.id ? "themselves" : user.username;
 
     const embed = new MessageEmbed()
-      .setTitle(`${message.author.username} Hugged ${hugged}`)
+      .setTitle(`${message.author.username} is hugging ${hugged}`)
       .setFooter(message.author.username)
-      .setColor("BLUE")
+      .setColor("YELLOW")
       .setDescription(`[Click here if the image failed to load.](${data.url})`)
       .setImage(`${data.url}`)
       .setTimestamp();
